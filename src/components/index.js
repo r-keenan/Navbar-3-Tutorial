@@ -8,7 +8,7 @@ const Navbar = () => {
             <Nav>
                 {/*This is a styled component */}
                 <NavLink to="/">
-                    <h1>Logo</h1>
+                    <img src={require('../logo.svg')} alt='logo'/>
                 </NavLink>
                 <Bars/>
                 <NavMenu>
